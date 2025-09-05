@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    background: rgb(31,33,48);
+    color: #e0dfdf;
+    font-family: 'Poppins', sans-serif;
+}
+.profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid rgb(0, 0, 0) 4px;
+    float: left;
+    margin-right: auto;
+    margin-left: 30px;
+}
+h1 {
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 50px;
+    text-align: left;
+    padding-top:40px;
+    margin-bottom: 10px;
+    float: center;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 3px solid rgb(193,193,193);
+}
+.subtext {
+    color: rgb(123,175,227);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-weight: lighter;
+    font-size: medium;
+    float: center;
+}
+section {
+    padding: 5px;
+    margin-bottom: auto;
+}
+#about p {
+    margin: 25px;
+}
+#Experience ul {
+    padding: 5px;
+}
+#Experience li {
+    border: solid rgb(123,175,227);
+    padding: 15px;
+    margin-block: 20px;
+    background-color: rgb(52, 45, 111);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 50%;
+    display: inline-block;
+    max-width: 100%;
+}
+#Connect {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-weight: lighter;
+    float: center;
+}
+#Connect a{
+    color: rgb(123,175,227);
+    font-weight: bold;
+    font-size:x-large;
+    margin-bottom: 50px;;
+    text-decoration: none;
+}
