@@ -5,84 +5,123 @@ body {
     color: #e0dfdf;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(17, 17, 23);
+    padding: 0.5em;
+}
+header nav  {
+    display: flex;
+    justify-content: center;
+    gap: 1.25em;
+}
+header nav a {
+    color: aquamarine;
+}
+
 .profilePic {
     float: left;
     margin-right: auto;
-    margin-left: 30px;
-    border: solid rgb(0, 0, 0) 4px;
+    border: solid rgb(0, 0, 0) 0.25rem;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-h1 {
-    display: flex;
-    margin-bottom: 10px;
-    padding-top:40px;
-    padding-left: 10px;
-    font-size: 50px;
-    text-align: left;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-}
-h2 {
-    border-bottom: 3px solid rgb(193,193,193);
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-}
-.subtext {
-    float: center;
-    margin-top: 20px;
-    margin-bottom: 120px;
-    padding-left: 250px;
-    color: aquamarine;
-    font-weight: lighter;
-    font-size: medium;
-    text-align: left;
-}
-nav {
-    font-size: x-large;
-    text-align: center;
-}
-nav a{
-    margin: 9px;
-    color: #e0dfdf;
-}
-section {
-    margin-bottom: auto;
-    padding: 5px;
-}
-#About p {
-    margin: 25px;
-}
-#Experience ul {
-    display: flex;
-    padding: 5px;
-    list-style: none;
-}
-#Experience li p {
-    color: aquamarine;
-}
-#Experience li {
-    margin-right: 5px;
-    margin-left: 5px;
-    border: 2px solid rgb(52,45,111);;
-    border-radius: 20px;
-    background-color: rgb(52,45,111);
-    padding: 15px;
-    width: 80%;
-    max-width: 600px;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
-#Connect a{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    color: rgb(123,175,227);
-    font-weight: bold;
+.titlecard {
+    margin-left: 14em;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 0.1rem -0.1rem 0 #000, 0.1rem -0.1rem 0 #000, -0.1rem 0.1rem 0 #000, 0.1rem 0.1rem 0 #000;
+}
+
+.subtext {
+    color: aquamarine;
     font-weight: lighter;
-    font-size:x-large;
+    font-size: 1rem;
+    text-align: left;
+}
+
+h2 {
+    border-bottom: 0.1rem solid rgb(193,193,193);
+    font-weight: bold;
+    font-size: 1.8rem;
     text-align: center;
+}
+section {
+    padding: 2.5em;
+    margin: 1.25em auto;
+    max-width: 56.25em;
+    background-color: rgb(37, 40, 58);
+
+}
+#About p {
+    margin: 1.5rem;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#Connect a {
+    justify-content: space-around;
+    display: flex;
+    color: rgb(123,175,227);
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ==================================== 
+// TABLET //
+====================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+    padding: 1.25em;
+    }
+    header nav a {
+    font-size: 1rem;
+    }
+
+    .experience-header {
+    font-size: 1rem;
+    }
+    .title-card {
+        font-size: 0.75rem;
+    }
+    #Connect a {
+        font-size: 1.6rem;
+    }
+    #About p {
+        font-size: 2rem;
+    }
+}
+
+/* ==================================== 
+// Mobile //
+====================================== */
+@media (min-width: 330px) and (max-width: 767px) {
+    header {
+    padding: 2em;
+    }
+    header nav a {
+    font-size: 1.5rem;
+    }
+
+    .experience-header {
+    font-size: 1.5rem;
+    }
+    .titlecard {
+        font-size: 0.5rem;
+    }
+    #Connect a {
+        font-size: 2rem;
+    }
 }
