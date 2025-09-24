@@ -30,7 +30,7 @@ header nav a {
     height: 12.5rem;
 }
 
-.titlecard {
+.title-card {
     margin-left: 14em;
 }
 
@@ -69,6 +69,24 @@ section {
     justify-content: space-between;
     align-items: baseline;
 }
+
+#Skills ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#Skills li {
+    font-size: 1.2em;
+    padding: 0.6rem;
+    background-color: rgb(62, 65, 83);
+    border-radius: 15%;
+}
+
+
 
 #Connect a {
     justify-content: space-around;
