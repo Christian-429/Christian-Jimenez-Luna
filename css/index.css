@@ -97,6 +97,49 @@ section {
     font-weight: bold;
 }
 
+#submit {
+    background-color: aquamarine;
+    color: rgb(31,33,48);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+
+
+#messages ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+#messages li {
+    background-color: rgb(62, 65, 83);
+    border: 2px solid rgb(123, 227, 165);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#messages li a {
+    color: rgb(123,175,227);
+}
+#messages li button {
+    background-color: rgb(137, 171, 238);
+     cursor: pointer;
+     border: none;
+}
+
 /* ==================================== 
 // TABLET //
 ====================================== */
@@ -136,7 +179,7 @@ section {
     .experience-header {
     font-size: 1.5rem;
     }
-    .titlecard {
+    .title-card {
         font-size: 0.5rem;
     }
     #Connect a {
