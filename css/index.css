@@ -139,6 +139,22 @@ section {
      cursor: pointer;
      border: none;
 }
+#Projects li {
+    padding: 0.4rem;
+    padding-right: 0;
+    margin: 0.2rem;
+    border-radius: 0.5em 0.5em 0.5em;
+    background-color: rgb(62, 65, 83);
+    list-style: none;
+    
+
+
+}
+#Projects li a {
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* ==================================== 
 // TABLET //
@@ -185,4 +201,7 @@ section {
     #Connect a {
         font-size: 2rem;
     }
+    #Projects li a {
+    font-size: 2rem;
+}
 }
